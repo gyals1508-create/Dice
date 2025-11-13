@@ -1,0 +1,82 @@
+.container {
+    width: 70%;       /* 화면 넓이의 70% 차지 */
+    margin: auto;     /* 화면 가운데 정렬 */
+    text-align: center; /* 안의 내용(텍스트, 이미지)을 중앙 정렬 */
+}
+
+.dice {
+    text-align: center;  /* dice 안의 텍스트/이미지를 가운데 정렬 */
+    display: inline-block; /* 두 개의 dice 블록(Player1, Player2)을 옆으로 배치 */
+}
+
+body {
+    background-color: #393E46; /* 전체 배경 색상 설정 */
+}
+
+h1 {
+    margin: 30px;                 /* 제목 위아래 여백 */
+    font-family: 'Lobster', cursive; /* 구글 폰트 Lobster 적용 */
+    text-shadow: 5px 0 #232931;   /* 글자에 그림자 효과 */
+    font-size: 8rem;              /* 글자 크기 크게 */
+    color: #4ECCA3;               /* 글자 색상 */
+}
+
+p {
+    font-size: 2rem;              /* 글자 크기 크게 */
+    color: #4ECCA3;               /* 글자 색상 */
+    font-family: 'Indie Flower', cursive; /* 구글 폰트 Indie Flower 적용 */
+}
+
+img {
+    width: 80%;                   /* 주사위 이미지 크기를 부모 영역의 80%로 */
+}
+
+footer {
+    margin-top: 5%;               /* 위쪽 여백 */
+    color: #EEEEEE;               /* 글자 색상 흰색 */
+    text-align: center;           /* 가운데 정렬 */
+    font-family: 'Indie Flower', cursive; /* 글꼴 적용 */
+}
+
+
+/* .container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+} */

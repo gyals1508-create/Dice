@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- 문서 타입 선언: HTML5 문서라는 걸 알려줌 -->
+<html lang="ko">
+  <!-- 문서 언어를 한국어로 설정 -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 문자 인코딩 UTF-8 설정 (한글 깨짐 방지) -->
+    <title>Dicee</title>
+    <!-- 브라우저 탭에 표시될 제목 -->
+
+    <!-- 외부 CSS 파일 연결 -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- 구글 폰트 불러오기 -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- 전체 레이아웃을 감싸는 컨테이너 -->
+      <h1>Refresh Me!</h1>
+      <!-- 게임 결과 표시 영역 -->
+
+      <div class="dice">
+        <!-- Player 1 영역 -->
+        <p>Player 1</p>
+        <!-- 시작 화면은 주사위 눈 6으로 고정 -->
+        <img class="img1" src="images/dice6.png" />
+      </div>
+
+      <div class="dice">
+        <!-- Player 2 영역 -->
+        <p>Player 2</p>
+        <!-- 시작 화면은 주사위 눈 6으로 고정 -->
+        <img class="img2" src="images/dice6.png" />
+      </div>
+    </div>
+
+    <!-- 자바스크립트 파일 연결 -->
+    <script src="app.js"></script>
+
+    <footer>
+      <!-- 페이지 하단 영역 -->
+      &copy; 2025 . busanIT. co. kr
+    </footer>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Dicee</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Refresh Me!</h1>
+
+    <div class="dice">
+      <p>Player 1</p>
+      시작화면은 6 고정
+      <img class="img1" src="images/dice6.png">
+    </div>
+
+    <div class="dice">
+      <p>Player 2</p>
+      시작화면은 6 고정
+      <img class="img2" src="images/dice6.png">
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+<footer>
+  &copy; 2025 . busanIT. co. kr
+</footer>
+</html> -->
